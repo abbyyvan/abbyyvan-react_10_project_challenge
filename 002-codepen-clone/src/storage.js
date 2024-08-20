@@ -2,7 +2,7 @@ import {useEffect, useState} from 'react'
 
 const NAME = 'code-'
 
-export default function useLocalStorage(key, initialValue) {
+export default function useLocalStorage(key: string, initialValue: any) {
     //use Key + name to create a key
     const codeKey = key + NAME
 
